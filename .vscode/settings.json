@@ -1,5 +1,6 @@
 {
 	"files.exclude": {
+		"E:/Unreal Projects/ToonTanks/.git": true,
 		"E:/Unreal Projects/ToonTanks/.vscode": true,
 		"E:/Unreal Projects/ToonTanks/Content": true,
 		"E:/Unreal Projects/ToonTanks/Intermediate": true,

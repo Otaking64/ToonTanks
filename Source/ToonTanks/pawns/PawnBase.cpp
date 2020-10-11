@@ -3,6 +3,7 @@
 
 #include "PawnBase.h"
 #include "Components/CapsuleComponent.h"
+#include "Engine/StaticMesh.h"
 
 // Sets default values
 APawnBase::APawnBase()
@@ -24,24 +25,5 @@ APawnBase::APawnBase()
 
 }
 
-// Called when the game starts or when spawned
-void APawnBase::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
 
-// Called every frame
-void APawnBase::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
-// Called to bind functionality to input
-void APawnBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}
 
