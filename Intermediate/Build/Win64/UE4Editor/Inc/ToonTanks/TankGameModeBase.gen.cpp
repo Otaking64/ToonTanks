@@ -17,9 +17,78 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 	TOONTANKS_API UClass* Z_Construct_UClass_ATankGameModeBase();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_ToonTanks();
+	TOONTANKS_API UFunction* Z_Construct_UFunction_ATankGameModeBase_GameOver();
+	TOONTANKS_API UFunction* Z_Construct_UFunction_ATankGameModeBase_GameStart();
 // End Cross Module References
+	static FName NAME_ATankGameModeBase_GameOver = FName(TEXT("GameOver"));
+	void ATankGameModeBase::GameOver(bool PlayerWon)
+	{
+		TankGameModeBase_eventGameOver_Parms Parms;
+		Parms.PlayerWon=PlayerWon ? true : false;
+		ProcessEvent(FindFunctionChecked(NAME_ATankGameModeBase_GameOver),&Parms);
+	}
+	static FName NAME_ATankGameModeBase_GameStart = FName(TEXT("GameStart"));
+	void ATankGameModeBase::GameStart()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ATankGameModeBase_GameStart),NULL);
+	}
 	void ATankGameModeBase::StaticRegisterNativesATankGameModeBase()
 	{
+	}
+	struct Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics
+	{
+		static void NewProp_PlayerWon_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_PlayerWon;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::NewProp_PlayerWon_SetBit(void* Obj)
+	{
+		((TankGameModeBase_eventGameOver_Parms*)Obj)->PlayerWon = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::NewProp_PlayerWon = { "PlayerWon", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TankGameModeBase_eventGameOver_Parms), &Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::NewProp_PlayerWon_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::NewProp_PlayerWon,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GameModes/TankGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATankGameModeBase, nullptr, "GameOver", sizeof(TankGameModeBase_eventGameOver_Parms), Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATankGameModeBase_GameOver()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATankGameModeBase_GameOver_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATankGameModeBase_GameStart_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATankGameModeBase_GameStart_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GameModes/TankGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATankGameModeBase_GameStart_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATankGameModeBase, nullptr, "GameStart", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATankGameModeBase_GameStart_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATankGameModeBase_GameStart_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATankGameModeBase_GameStart()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATankGameModeBase_GameStart_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ATankGameModeBase_NoRegister()
 	{
@@ -28,6 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 	struct Z_Construct_UClass_ATankGameModeBase_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -37,6 +107,10 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 	UObject* (*const Z_Construct_UClass_ATankGameModeBase_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_ToonTanks,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ATankGameModeBase_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATankGameModeBase_GameOver, "GameOver" }, // 2260475399
+		{ &Z_Construct_UFunction_ATankGameModeBase_GameStart, "GameStart" }, // 3524733589
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankGameModeBase_Statics::Class_MetaDataParams[] = {
@@ -54,11 +128,11 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		nullptr,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x009002A8u,
@@ -73,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankGameModeBase, 654435898);
+	IMPLEMENT_CLASS(ATankGameModeBase, 2208266196);
 	template<> TOONTANKS_API UClass* StaticClass<ATankGameModeBase>()
 	{
 		return ATankGameModeBase::StaticClass();

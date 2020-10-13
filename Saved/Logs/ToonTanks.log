@@ -620,3 +620,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.13-13.36.08:067][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.10.13-13.36.08:091][773]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
 [2020.10.13-13.36.08:108][774]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.10.13-13.39.45:239][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.13-13.40.19:782][477]Candidate modules for hot reload:
+[2020.10.13-13.40.19:782][477]  ToonTanks
+[2020.10.13-13.40.19:782][477]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6241 Win64 Development -TargetType=Editor -Project="E:/Unreal Projects/ToonTanks/ToonTanks.uproject" "E:/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 5:40:27 PM
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\ToonTanks).
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: Creating makefile for ToonTanksEditor (ini files are newer than makefile)
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal Projects\ToonTanks\ToonTanks.uproject" "E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 5.1232046 seconds
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: Building 8 actions with 24 processes...
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   [1/8] ToonTanks.init.gen.cpp
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   [2/8] HealthComponent.cpp
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   [3/8] TankGameModeBase.cpp
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   [4/8] HealthComponent.gen.cpp
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   [5/8] TankGameModeBase.gen.cpp
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   [6/8] UE4Editor-ToonTanks-6241.lib
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:      Creating library E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6241.lib and object E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6241.exp
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   [7/8] UE4Editor-ToonTanks-6241.dll
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:      Creating library E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6241.suppressed.lib and object E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6241.suppressed.exp
+[2020.10.13-13.40.27:402][477]CompilerResultsLog:   [8/8] ToonTanksEditor.target
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: Total time in Parallel executor: 1.02 seconds
+[2020.10.13-13.40.27:402][477]CompilerResultsLog: Total execution time: 7.56 seconds
+[2020.10.13-13.40.27:402][477]LogMainFrame: MainFrame: Module compiling took 7.624 seconds
+[2020.10.13-13.40.27:445][477]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.10.13-13.40.27:445][477]LogBlueprintActionDatabase: Requesting refresh due to module change: ToonTanks (unloaded)
+[2020.10.13-13.40.27:462][477]LogClass: Could not find existing class HealthComponent in package /Script/ToonTanks for HotReload, assuming new class
+[2020.10.13-13.40.27:470][477]LogClass: Could not find existing class TankGameModeBase in package /Script/ToonTanks for HotReload, assuming new class
+[2020.10.13-13.40.27:482][477]LogHotReload: Re-instancing TankGameModeBase after hot-reload.
+[2020.10.13-13.40.27:788][477]LogBlueprintActionDatabase: Requesting refresh due to module change: ToonTanks (loaded)
+[2020.10.13-13.40.27:789][477]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 6 classes and 6 folders.
+[2020.10.13-13.40.27:794][477]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.10.13-13.40.28:094][477]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.10.13-13.40.28:094][477]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.10.13-13.40.28:109][477]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2739 classes and 667 folders.
+[2020.10.13-13.40.28:109][477]Display: HotReload took  8.3s.
+[2020.10.13-13.40.28:110][477]Warning: HotReload operation took  8.3s.
+[2020.10.13-13.40.28:123][477]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.10.13-13.40.28:396][478]LogHotReload: New module detected: UE4Editor-ToonTanks-6241.dll
+[2020.10.13-13.40.28:417][479]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.13-13.40.28:569][479]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2020.10.13-13.40.28:570][479]LogBlueprintActionDatabase: Requesting refresh due to module change: ToonTanks (unloaded)
+[2020.10.13-13.40.28:576][479]LogBlueprintActionDatabase: Requesting refresh due to module change: ToonTanks (loaded)
+[2020.10.13-13.40.28:576][479]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 6 classes and 6 folders.
+[2020.10.13-13.40.28:583][479]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.13-13.40.28:642][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.10.13-13.40.28:642][479]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.10.13-13.40.28:657][479]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2739 classes and 667 folders.
+[2020.10.13-13.40.28:660][479]Display: HotReload took  0.2s.
+[2020.10.13-13.42.41:002][870]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.10.13-13.42.41:003][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="E:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.10.13-13.42.41:170][870]LogSavePackage: Moving 'E:/Unreal Projects/ToonTanks/Saved/Main_Auto12DA8237D4E25A885680D1CBEA401F73D.tmp' to 'E:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2020.10.13-13.42.41:173][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.239
+[2020.10.13-13.42.41:173][870]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.239

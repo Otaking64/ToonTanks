@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_RPC_WRAPPERS
 #define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_EVENT_PARMS \
+	struct TankGameModeBase_eventGameOver_Parms \
+	{ \
+		bool PlayerWon; \
+	};
+
+
+#define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_CALLBACK_WRAPPERS
 #define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATankGameModeBase(); \
@@ -60,12 +68,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankGameModeBase); \
 
 
 #define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_12_PROLOG
+#define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_12_PROLOG \
+	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_EVENT_PARMS
+
+
 #define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
 	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_RPC_WRAPPERS \
+	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_CALLBACK_WRAPPERS \
 	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_INCLASS \
 	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -77,6 +89,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
 	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_CALLBACK_WRAPPERS \
 	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 	ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
