@@ -912,3 +912,133 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.13-13.57.05:767][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.10.13-13.57.05:771][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
 [2020.10.13-13.57.05:788][261]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.10.13-14.04.33:698][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.10.13-14.04.36:448][358]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.10.13-14.04.36:454][358]Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Unreal Projects/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2020.10.13-14.04.36:757][358]Discovering modules, targets and source code for project...
+[2020.10.13-14.04.38:058][358]Binding IntelliSense data...
+[2020.10.13-14.04.39:163][358]Binding IntelliSense data... 100%
+[2020.10.13-14.04.39:163][358]Writing project files...
+[2020.10.13-14.04.39:264][358]Writing project files... 100%
+[2020.10.13-14.11.03:160][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.13-14.11.03:271][622]Candidate modules for hot reload:
+[2020.10.13-14.11.03:271][622]  ToonTanks
+[2020.10.13-14.11.03:271][622]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,635 Win64 Development -TargetType=Editor -Project="E:/Unreal Projects/ToonTanks/ToonTanks.uproject" "E:/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.10.13-14.11.03:273][622]Warning: Starting HotReload took  0.0s.
+[2020.10.13-14.11.11:076][558]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:11:11 PM
+[2020.10.13-14.11.11:076][558]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\ToonTanks).
+[2020.10.13-14.11.11:076][558]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2020.10.13-14.11.11:076][558]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.10.13-14.11.11:076][558]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal Projects\ToonTanks\ToonTanks.uproject" "E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.10.13-14.11.11:077][558]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 5.3248215 seconds
+[2020.10.13-14.11.11:077][558]CompilerResultsLog: Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.13-14.11.11:078][558]CompilerResultsLog: Building 12 actions with 24 processes...
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:   [1/12] TankGameModeBase.gen.cpp
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C2143: syntax error: missing ';' before '*'
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C2238: unexpected token(s) preceding ';'
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:   [2/12] PawnBase.cpp
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:   [3/12] PawnBase.gen.cpp
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:   [4/12] PawnTank.gen.cpp
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:   [5/12] PawnTurret.gen.cpp
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:   [6/12] HealthComponent.cpp
+[2020.10.13-14.11.11:078][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C2143: syntax error: missing ';' before '*'
+[2020.10.13-14.11.11:079][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.13-14.11.11:079][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(19) : error C2238: unexpected token(s) preceding ';'
+[2020.10.13-14.11.11:079][558]CompilerResultsLog:   [7/12] TankGameModeBase.cpp
+[2020.10.13-14.11.11:079][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(19) : error C2143: syntax error: missing ';' before '*'
+[2020.10.13-14.11.11:079][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.13-14.11.11:079][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(19) : error C2238: unexpected token(s) preceding ';'
+[2020.10.13-14.11.11:080][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(15) : error C2664: 'void UGameplayStatics::GetAllActorsOfClass(const UObject *,TSubclassOf<AActor>,TArray<AActor *,FDefaultAllocator> &)': cannot convert argument 2 from 'UClass *(__cdecl *)(void)' to 'TSubclassOf<AActor>'
+[2020.10.13-14.11.11:080][558]CompilerResultsLog:   E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(15): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+[2020.10.13-14.11.11:080][558]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(83): note: see declaration of 'UGameplayStatics::GetAllActorsOfClass'
+[2020.10.13-14.11.11:080][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(18) : error C2065: 'PlayerTank': undeclared identifier
+[2020.10.13-14.11.11:080][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(23) : error C2065: 'PlayerTank': undeclared identifier
+[2020.10.13-14.11.11:081][558]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(24) : error C2065: 'PlayerTank': undeclared identifier
+[2020.10.13-14.11.11:081][558]CompilerResultsLog:   [8/12] PawnTank.cpp
+[2020.10.13-14.11.11:081][558]CompilerResultsLog:   [9/12] PawnTurret.cpp
+[2020.10.13-14.11.11:081][558]LogMainFrame: MainFrame: Module compiling took 7.812 seconds
+[2020.10.13-14.11.11:081][558]Warning: HotReload failed, recompile failed
+[2020.10.13-14.11.33:532][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.13-14.16.17:128][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.13-14.16.17:222][630]Candidate modules for hot reload:
+[2020.10.13-14.16.17:223][630]  ToonTanks
+[2020.10.13-14.16.17:223][630]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,755 Win64 Development -TargetType=Editor -Project="E:/Unreal Projects/ToonTanks/ToonTanks.uproject" "E:/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.10.13-14.16.17:225][630]Warning: Starting HotReload took  0.0s.
+[2020.10.13-14.16.23:906][431]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:16:23 PM
+[2020.10.13-14.16.23:907][431]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\ToonTanks).
+[2020.10.13-14.16.23:907][431]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.10.13-14.16.23:907][431]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal Projects\ToonTanks\ToonTanks.uproject" "E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.10.13-14.16.23:907][431]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 5.2843128 seconds
+[2020.10.13-14.16.23:907][431]CompilerResultsLog: Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.13-14.16.23:908][431]CompilerResultsLog: Building 6 actions with 24 processes...
+[2020.10.13-14.16.23:908][431]CompilerResultsLog:   [1/6] TankGameModeBase.gen.cpp
+[2020.10.13-14.16.23:908][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.13-14.16.23:908][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.13-14.16.23:908][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.13-14.16.23:908][431]CompilerResultsLog:   [2/6] HealthComponent.cpp
+[2020.10.13-14.16.23:908][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.13-14.16.23:908][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.13-14.16.23:909][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks/GameModes/TankGameModeBase.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.13-14.16.23:909][431]CompilerResultsLog:   [3/6] TankGameModeBase.cpp
+[2020.10.13-14.16.23:909][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(18) : error C2143: syntax error: missing ';' before '*'
+[2020.10.13-14.16.23:909][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(18) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.10.13-14.16.23:909][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.h(18) : error C2238: unexpected token(s) preceding ';'
+[2020.10.13-14.16.23:909][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(19) : error C2065: 'PlayerTank': undeclared identifier
+[2020.10.13-14.16.23:910][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(20) : error C2065: 'PlayerTank': undeclared identifier
+[2020.10.13-14.16.23:910][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(35) : error C2065: 'PlayerTank': undeclared identifier
+[2020.10.13-14.16.23:910][431]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(51) : error C2664: 'void UGameplayStatics::GetAllActorsOfClass(const UObject *,TSubclassOf<AActor>,TArray<AActor *,FDefaultAllocator> &)': cannot convert argument 2 from 'UClass *(__cdecl *)(void)' to 'TSubclassOf<AActor>'
+[2020.10.13-14.16.23:910][431]CompilerResultsLog:   E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(51): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+[2020.10.13-14.16.23:910][431]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(83): note: see declaration of 'UGameplayStatics::GetAllActorsOfClass'
+[2020.10.13-14.16.23:911][431]LogMainFrame: MainFrame: Module compiling took 6.691 seconds
+[2020.10.13-14.16.23:911][431]Warning: HotReload failed, recompile failed
+[2020.10.13-14.21.53:332][411]Candidate modules for hot reload:
+[2020.10.13-14.21.53:332][411]  ToonTanks
+[2020.10.13-14.21.53:332][411]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,49 Win64 Development -TargetType=Editor -Project="E:/Unreal Projects/ToonTanks/ToonTanks.uproject" "E:/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.10.13-14.21.53:334][411]Warning: Starting HotReload took  0.0s.
+[2020.10.13-14.22.01:205][354]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:22:01 PM
+[2020.10.13-14.22.01:205][354]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\ToonTanks).
+[2020.10.13-14.22.01:205][354]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.10.13-14.22.01:205][354]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal Projects\ToonTanks\ToonTanks.uproject" "E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.10.13-14.22.01:205][354]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 5.7992763 seconds
+[2020.10.13-14.22.01:205][354]CompilerResultsLog: Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.13-14.22.01:206][354]CompilerResultsLog: Building 6 actions with 24 processes...
+[2020.10.13-14.22.01:206][354]CompilerResultsLog:   [1/6] TankGameModeBase.cpp
+[2020.10.13-14.22.01:206][354]CompilerResultsLog:    E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(51) : error C2664: 'void UGameplayStatics::GetAllActorsOfClass(const UObject *,TSubclassOf<AActor>,TArray<AActor *,FDefaultAllocator> &)': cannot convert argument 2 from 'UClass *(__cdecl *)(void)' to 'TSubclassOf<AActor>'
+[2020.10.13-14.22.01:206][354]CompilerResultsLog:   E:\Unreal Projects\ToonTanks\Source\ToonTanks\GameModes\TankGameModeBase.cpp(51): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+[2020.10.13-14.22.01:206][354]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(83): note: see declaration of 'UGameplayStatics::GetAllActorsOfClass'
+[2020.10.13-14.22.01:207][354]CompilerResultsLog:   [2/6] TankGameModeBase.gen.cpp
+[2020.10.13-14.22.01:207][354]CompilerResultsLog:   [3/6] HealthComponent.cpp
+[2020.10.13-14.22.01:207][354]LogMainFrame: MainFrame: Module compiling took 7.877 seconds
+[2020.10.13-14.22.01:207][354]Warning: HotReload failed, recompile failed
+[2020.10.13-14.23.32:941][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.13-14.23.33:044][292]Candidate modules for hot reload:
+[2020.10.13-14.23.33:044][292]  ToonTanks
+[2020.10.13-14.23.33:044][292]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2102 Win64 Development -TargetType=Editor -Project="E:/Unreal Projects/ToonTanks/ToonTanks.uproject" "E:/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.10.13-14.23.33:046][292]Warning: Starting HotReload took  0.0s.
+[2020.10.13-14.23.35:142][543]CompilerResultsLog: New page: Compilation - Oct 13, 2020, 6:23:35 PM
+[2020.10.13-14.23.35:142][543]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\ToonTanks).
+[2020.10.13-14.23.35:142][543]CompilerResultsLog: Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.13-14.23.35:142][543]CompilerResultsLog: Building 4 actions with 24 processes...
+[2020.10.13-14.23.35:143][543]CompilerResultsLog:   [1/4] TankGameModeBase.cpp
+[2020.10.13-14.23.35:143][543]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-2102.lib
+[2020.10.13-14.23.35:143][543]CompilerResultsLog:      Creating library E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2102.lib and object E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2102.exp
+[2020.10.13-14.23.35:143][543]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-2102.dll
+[2020.10.13-14.23.35:143][543]CompilerResultsLog:      Creating library E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2102.suppressed.lib and object E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2102.suppressed.exp
+[2020.10.13-14.23.35:143][543]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2020.10.13-14.23.35:143][543]CompilerResultsLog: Total time in Parallel executor: 1.31 seconds
+[2020.10.13-14.23.35:143][543]CompilerResultsLog: Total execution time: 2.04 seconds
+[2020.10.13-14.23.35:144][543]LogMainFrame: MainFrame: Module compiling took 2.102 seconds
+[2020.10.13-14.23.35:188][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.10.13-14.23.35:188][543]LogBlueprintActionDatabase: Requesting refresh due to module change: ToonTanks (unloaded)
+[2020.10.13-14.23.35:222][543]LogClass: Could not find existing class TankGameModeBase in package /Script/ToonTanks for HotReload, assuming new class
+[2020.10.13-14.23.35:235][543]LogHotReload: Re-instancing TankGameModeBase after hot-reload.
+[2020.10.13-14.23.35:623][543]LogBlueprintActionDatabase: Requesting refresh due to module change: ToonTanks (loaded)
+[2020.10.13-14.23.35:624][543]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 6 classes and 6 folders.
+[2020.10.13-14.23.35:630][543]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.10.13-14.23.35:715][543]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2020.10.13-14.23.35:715][543]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.10.13-14.23.35:730][543]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2739 classes and 667 folders.
+[2020.10.13-14.23.35:730][543]Display: HotReload took  2.7s.
+[2020.10.13-14.23.54:369][751]LogSlate: Window 'Message Log' being destroyed
+[2020.10.13-14.23.54:373][751]LogSlate: Window 'Message Log' being destroyed
