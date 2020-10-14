@@ -1608,3 +1608,164 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.14-14.31.37:475][530]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
 [2020.10.14-14.32.00:521][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2020.10.14-14.32.01:459][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.10.14-14.37.10:878][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-14.37.12:270][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-14.37.12:354][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.37.12:355][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.37.12:382][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-14.37.12:382][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.37.12:444][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.37.12:451][797]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2020.10.14-14.37.12:468][798]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.10.14-14.37.12:903][850]Candidate modules for hot reload:
+[2020.10.14-14.37.12:904][850]  ToonTanks
+[2020.10.14-14.37.12:904][850]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2115 Win64 Development -TargetType=Editor -Project="E:/Unreal Projects/ToonTanks/ToonTanks.uproject" "E:/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.10.14-14.37.12:906][850]Warning: Starting HotReload took  0.0s.
+[2020.10.14-14.37.21:051][669]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 6:37:21 PM
+[2020.10.14-14.37.21:051][669]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\ToonTanks).
+[2020.10.14-14.37.21:051][669]CompilerResultsLog: Creating makefile for ToonTanksEditor (ini files are newer than makefile)
+[2020.10.14-14.37.21:052][669]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.10.14-14.37.21:052][669]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal Projects\ToonTanks\ToonTanks.uproject" "E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.10.14-14.37.21:052][669]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 5.2621918 seconds
+[2020.10.14-14.37.21:052][669]CompilerResultsLog: Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.14-14.37.21:052][669]CompilerResultsLog: Building 7 actions with 24 processes...
+[2020.10.14-14.37.21:052][669]CompilerResultsLog:   [1/7] ToonTanks.init.gen.cpp
+[2020.10.14-14.37.21:052][669]CompilerResultsLog:   [2/7] ProjectileBase.gen.cpp
+[2020.10.14-14.37.21:052][669]CompilerResultsLog:   [3/7] PawnBase.cpp
+[2020.10.14-14.37.21:053][669]CompilerResultsLog:   [4/7] ProjectileBase.cpp
+[2020.10.14-14.37.21:053][669]CompilerResultsLog:   [5/7] UE4Editor-ToonTanks-2115.lib
+[2020.10.14-14.37.21:053][669]CompilerResultsLog:      Creating library E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2115.lib and object E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2115.exp
+[2020.10.14-14.37.21:053][669]CompilerResultsLog:   [6/7] UE4Editor-ToonTanks-2115.dll
+[2020.10.14-14.37.21:053][669]CompilerResultsLog:      Creating library E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2115.suppressed.lib and object E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2115.suppressed.exp
+[2020.10.14-14.37.21:053][669]CompilerResultsLog:   [7/7] ToonTanksEditor.target
+[2020.10.14-14.37.21:053][669]CompilerResultsLog: Total time in Parallel executor: 1.35 seconds
+[2020.10.14-14.37.21:053][669]CompilerResultsLog: Total execution time: 8.09 seconds
+[2020.10.14-14.37.21:054][669]LogMainFrame: MainFrame: Module compiling took 8.152 seconds
+[2020.10.14-14.37.21:111][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.10.14-14.37.21:113][669]LogBlueprintActionDatabase: Requesting refresh due to module change: ToonTanks (unloaded)
+[2020.10.14-14.37.21:152][669]LogClass: Could not find existing class ProjectileBase in package /Script/ToonTanks for HotReload, assuming new class
+[2020.10.14-14.37.21:153][669]LogClass: Function OnHit is new.
+[2020.10.14-14.37.21:172][669]LogHotReload: Re-instancing ProjectileBase after hot-reload.
+[2020.10.14-14.37.21:731][669]LogBlueprintActionDatabase: Requesting refresh due to module change: ToonTanks (loaded)
+[2020.10.14-14.37.21:732][669]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 7 classes and 7 folders.
+[2020.10.14-14.37.21:741][669]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.10.14-14.37.21:843][669]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2020.10.14-14.37.21:845][669]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.10.14-14.37.21:858][669]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2740 classes and 668 folders.
+[2020.10.14-14.37.21:859][669]Display: HotReload took  9.0s.
+[2020.10.14-14.37.22:481][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-14.37.24:324][925]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2020.10.14-14.37.37:679][469]BlueprintLog: New page: Compile BP_ProjectileBase
+[2020.10.14-14.37.38:097][469]LogUObjectHash: Compacting FUObjectHashTables data took   8.99ms
+[2020.10.14-14.37.38:629][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_ProjectileBase" FILE="E:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset" SILENT=true
+[2020.10.14-14.37.38:650][529]LogSavePackage: Moving 'E:/Unreal Projects/ToonTanks/Saved/BP_ProjectileBaseDB0C9A634DEFD0BAD5D8798F06A92703.tmp' to 'E:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2020.10.14-14.37.43:288][ 84]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-14.37.43:345][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.37.43:345][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-14.37.43:345][ 84]PIE: New page: PIE session: Main (Oct 14, 2020, 6:37:43 PM)
+[2020.10.14-14.37.43:345][ 84]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.10.14-14.37.43:348][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002609s)
+[2020.10.14-14.37.43:348][ 84]LogAIModule: Creating AISystem for world Main
+[2020.10.14-14.37.43:349][ 84]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2020.10.14-14.37.43:349][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003421s)
+[2020.10.14-14.37.43:429][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
+[2020.10.14-14.37.43:439][ 84]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.14-14.37.43:447][ 84]LogInit: FAudioDevice initialized.
+[2020.10.14-14.37.43:472][ 84]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.10.14-14.37.43:473][ 84]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.14-16.37.43
+[2020.10.14-14.37.43:474][ 84]LogWorld: Bringing up level for play took: 0.000873
+[2020.10.14-14.37.43:486][ 84]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.102
+[2020.10.14-14.37.43:487][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.38.24:101][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.38.24:102][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.38.24:133][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-14.38.24:133][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.38.24:195][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.38.24:202][943]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.10.14-14.38.24:221][944]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.10.14-14.38.24:983][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-14.38.25:091][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-14.38.25:150][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.38.25:150][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-14.38.25:151][ 48]PIE: New page: PIE session: Main (Oct 14, 2020, 6:38:25 PM)
+[2020.10.14-14.38.25:151][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.10.14-14.38.25:153][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002599s)
+[2020.10.14-14.38.25:154][ 48]LogAIModule: Creating AISystem for world Main
+[2020.10.14-14.38.25:154][ 48]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2020.10.14-14.38.25:154][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003416s)
+[2020.10.14-14.38.25:210][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.10.14-14.38.25:221][ 48]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.14-14.38.25:229][ 48]LogInit: FAudioDevice initialized.
+[2020.10.14-14.38.25:258][ 48]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.10.14-14.38.25:259][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.14-16.38.25
+[2020.10.14-14.38.25:259][ 48]LogWorld: Bringing up level for play took: 0.000861
+[2020.10.14-14.38.25:272][ 48]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.887
+[2020.10.14-14.38.25:272][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.39.03:626][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.39.03:626][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.39.03:655][636]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-14.39.03:655][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.39.03:717][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.39.03:723][636]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.10.14-14.39.03:739][637]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.10.14-14.39.09:632][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-14.39.23:227][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-14.39.23:319][948]BlueprintLog: New page: Compile BP_PawnTank
+[2020.10.14-14.39.23:657][948]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.10.14-14.39.24:222][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="E:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.10.14-14.39.24:247][ 13]LogSavePackage: Moving 'E:/Unreal Projects/ToonTanks/Saved/BP_PawnTank08CF3FE1446CE480F35A2D9D6D2D5834.tmp' to 'E:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.10.14-14.39.25:776][195]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-14.39.25:834][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.39.25:835][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-14.39.25:835][195]PIE: New page: PIE session: Main (Oct 14, 2020, 6:39:25 PM)
+[2020.10.14-14.39.25:835][195]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.10.14-14.39.25:838][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002603s)
+[2020.10.14-14.39.25:838][195]LogAIModule: Creating AISystem for world Main
+[2020.10.14-14.39.25:838][195]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2020.10.14-14.39.25:838][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003417s)
+[2020.10.14-14.39.25:894][195]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2020.10.14-14.39.25:905][195]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.14-14.39.25:912][195]LogInit: FAudioDevice initialized.
+[2020.10.14-14.39.25:919][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.39.25:946][195]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.10.14-14.39.25:948][195]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.14-16.39.25
+[2020.10.14-14.39.25:948][195]LogWorld: Bringing up level for play took: 0.001069
+[2020.10.14-14.39.25:961][195]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.423
+[2020.10.14-14.39.25:962][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.39.46:286][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.39.46:286][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.39.46:299][626]LogSlate: Window 'ToonTanks Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.10.14-14.39.46:329][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-14.39.46:329][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.39.46:397][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.10.14-14.39.46:408][627]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.10.14-14.39.55:455][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-14.39.55:563][708]BlueprintLog: New page: Compile BP_PawnTank
+[2020.10.14-14.39.55:905][708]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.10.14-14.39.56:387][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="E:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.10.14-14.39.56:406][763]LogSavePackage: Moving 'E:/Unreal Projects/ToonTanks/Saved/BP_PawnTank456AF0014EDD3FF546FFBFA583C51630.tmp' to 'E:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.10.14-14.39.58:946][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.14-14.39.59:004][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.39.59:005][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.14-14.39.59:005][ 59]PIE: New page: PIE session: Main (Oct 14, 2020, 6:39:59 PM)
+[2020.10.14-14.39.59:005][ 59]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.10.14-14.39.59:008][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002542s)
+[2020.10.14-14.39.59:008][ 59]LogAIModule: Creating AISystem for world Main
+[2020.10.14-14.39.59:008][ 59]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2020.10.14-14.39.59:008][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003363s)
+[2020.10.14-14.39.59:064][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2020.10.14-14.39.59:074][ 59]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.14-14.39.59:082][ 59]LogInit: FAudioDevice initialized.
+[2020.10.14-14.39.59:088][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.39.59:116][ 59]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.10.14-14.39.59:117][ 59]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.10.14-16.39.59
+[2020.10.14-14.39.59:118][ 59]LogWorld: Bringing up level for play took: 0.000913
+[2020.10.14-14.39.59:131][ 59]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.747
+[2020.10.14-14.39.59:132][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.40.21:160][701]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.40.21:160][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.14-14.40.21:172][701]LogSlate: Window 'ToonTanks Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.10.14-14.40.21:206][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.14-14.40.21:206][701]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.10.14-14.40.21:274][701]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.10.14-14.40.21:285][702]LogPlayLevel: Display: Destroying online subsystem :Context_37
