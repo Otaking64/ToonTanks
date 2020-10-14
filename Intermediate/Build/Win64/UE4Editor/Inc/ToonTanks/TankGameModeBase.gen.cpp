@@ -101,6 +101,11 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartDelay_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_StartDelay;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -120,6 +125,16 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay_MetaData[] = {
+		{ "Category", "Game Loop" },
+		{ "ModuleRelativePath", "GameModes/TankGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay = { "StartDelay", nullptr, (EPropertyFlags)0x0020080000010015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankGameModeBase, StartDelay), METADATA_PARAMS(Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATankGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATankGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATankGameModeBase>::IsAbstract,
 	};
@@ -129,11 +144,11 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_ATankGameModeBase_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		ARRAY_COUNT(FuncInfo),
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_ATankGameModeBase_Statics::PropPointers),
 		0,
 		0x009002A8u,
 		METADATA_PARAMS(Z_Construct_UClass_ATankGameModeBase_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ATankGameModeBase_Statics::Class_MetaDataParams))
@@ -147,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankGameModeBase, 2208266196);
+	IMPLEMENT_CLASS(ATankGameModeBase, 4087825550);
 	template<> TOONTANKS_API UClass* StaticClass<ATankGameModeBase>()
 	{
 		return ATankGameModeBase::StaticClass();
