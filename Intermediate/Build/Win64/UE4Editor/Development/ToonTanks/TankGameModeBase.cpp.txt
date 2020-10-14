@@ -11,6 +11,8 @@ E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\Pa
 E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PawnTank.generated.h
 E:\Unreal Projects\ToonTanks\Source\ToonTanks/Pawns/PawnTurret.h
 E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PawnTurret.generated.h
+E:\Unreal Projects\ToonTanks\Source\ToonTanks/PlayerControllers/PlayerControllerBase.h
+E:\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\PlayerControllerBase.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
