@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 	TOONTANKS_API UClass* Z_Construct_UClass_APawnBase();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_ToonTanks();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	TOONTANKS_API UClass* Z_Construct_UClass_UHealthComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -38,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeathSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DeathSound;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthComponent_MetaData[];
 #endif
@@ -81,6 +86,13 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 		{ "ModuleRelativePath", "pawns/PawnBase.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnBase_Statics::NewProp_DeathSound_MetaData[] = {
+		{ "Category", "Effects" },
+		{ "ModuleRelativePath", "pawns/PawnBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APawnBase_Statics::NewProp_DeathSound = { "DeathSound", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawnBase, DeathSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APawnBase_Statics::NewProp_DeathSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_APawnBase_Statics::NewProp_DeathSound_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnBase_Statics::NewProp_HealthComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -144,6 +156,7 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APawnBase_Statics::NewProp_CapsuleComp = { "CapsuleComp", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawnBase, CapsuleComp), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APawnBase_Statics::NewProp_CapsuleComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_APawnBase_Statics::NewProp_CapsuleComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APawnBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_DeathSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_HealthComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_DeathParticle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_ProjectileClass,
@@ -179,7 +192,7 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APawnBase, 4132386520);
+	IMPLEMENT_CLASS(APawnBase, 463494503);
 	template<> TOONTANKS_API UClass* StaticClass<APawnBase>()
 	{
 		return APawnBase::StaticClass();
