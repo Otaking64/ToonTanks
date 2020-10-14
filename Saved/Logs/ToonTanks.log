@@ -1940,3 +1940,13 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.14-22.46.45:789][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.10.14-22.46.45:796][170]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
 [2020.10.14-22.46.45:812][171]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.10.14-22.47.59:896][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-22.49.02:784][425]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.10.14-22.49.24:969][ 61]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (22.163 sec). This should never happen. Something is wrong with the timer delegate!
+[2020.10.14-22.49.28:083][427]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2020.10.14-22.50.22:568][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.10.14-22.50.22:667][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="E:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.14-22.50.22:728][965]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.10.14-22.50.23:048][965]LogSavePackage: Moving 'E:/Unreal Projects/ToonTanks/Saved/MainF041C8C34D63D7710329FEA9D071D4D6.tmp' to 'E:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2020.10.14-22.50.23:071][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="E:/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.10.14-22.50.23:092][965]LogSavePackage: Moving 'E:/Unreal Projects/ToonTanks/Saved/Main_BuiltDataEAE9424B45BFB3C2A91ABD88364FF5E1.tmp' to 'E:/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset'
